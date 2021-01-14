@@ -1,0 +1,24 @@
+public class WaterpoloPlayer
+{
+    private int goals;
+    private int shots;
+    private String name;
+    
+    public WaterpoloPlayer(String theName, int theGoals, int theShots)
+    {
+        name = theName;
+        goals = theGoals;
+        shots = theShots;
+    }
+    
+    public String toString()
+    {
+        return name + ": " + goals + "/" + shots;
+    }
+    
+    public double getShotAverage()
+    {
+       return (double) (goals / shots);
+
+    }
+}
