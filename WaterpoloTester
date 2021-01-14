@@ -1,0 +1,8 @@
+public class WaterpoloTester extends ConsoleProgram
+{
+    public void run()
+    {
+        WaterpoloPlayer player = new WaterpoloPlayer("X", 1, 2);
+        System.out.println(player);
+    }
+}
